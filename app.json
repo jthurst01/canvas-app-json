@@ -1,0 +1,12 @@
+{
+    "name": "Canvas Spring Java Sample",
+    "description": "A simple salesforce to heroku canvas app",
+    "website": "https://github.com/jthurst01/canvas-app-json",
+    "success_url": "/welcome.jsp",
+    "env": {
+        "COOKIE_SECRET": {
+            "description": "This gets generated",
+            "generator": "secret"
+        }
+    }
+}
